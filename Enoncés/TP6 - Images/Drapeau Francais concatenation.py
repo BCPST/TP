@@ -1,0 +1,6 @@
+A=[0,0,255]*np.ones((100,50,3))
+B=[255,255,255]*np.ones((100,50,3))
+C=[255,0,0]*np.ones((100,50,3))
+D=np.concatenate((A,B,C),axis=1)
+plt.imshow(D)
+plt.show()
